@@ -1,0 +1,101 @@
+.form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-image: url(../images/sarıplan.webp);
+    background-attachment: fixed;
+    background-color: #f0f2fa;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(243, 236, 236);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  hr {
+    border: 1px solid #ddd;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .radio {
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    margin-right: 8px;
+  }
+  
+  button {
+    display: block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .popup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  /* Form.css */
+
+.popup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+}
+
+.popup-content {
+  background-color: #fff;
+  padding: 100px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  z-index: 1001;
+  position: relative;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+}
+
+/* Pop-up'ı ekranın ortasında hizalamak için */
+@media screen and (max-width: 768px) {
+  .popup-content {
+    max-width: 80%;
+  }
+}

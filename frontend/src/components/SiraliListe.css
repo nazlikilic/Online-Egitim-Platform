@@ -1,0 +1,50 @@
+/* SiraliListe.css */
+
+.ders-listesi {
+    margin-top: 20px; /* İstenilen boşluğu ayarlayabilirsiniz */
+  }
+  
+  .ders-listesi ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ders-listesi h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .ders-listesi li {
+    margin-bottom: 8px;
+    border-bottom: 1px solid #ddd; /* Her ders arasına çizgi ekler */
+    padding-bottom: 8px;
+  }
+  
+  .ders-link {
+    text-decoration: none;
+    color: #333; /* Link rengini değiştirebilirsiniz */
+    display: flex;
+    align-items: center;
+  }
+  
+  .ders-baslik {
+    margin-left: 8px;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Renk değişimine yumuşak geçiş ekler */
+  }
+  
+  .ders-baslik:hover {
+    color: #007bff; /* Hover olduğunda renk değiştirir */
+    text-decoration: underline;
+  }
+  
+  /* Checkbox stilleri */
+  .ders-link input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  
+  
+  
+  
+  

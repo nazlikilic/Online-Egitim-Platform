@@ -1,0 +1,65 @@
+.quiz-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .card-header {
+    background-color: #f4f4f4;
+    padding: 10px;
+  }
+  
+  .card-title {
+    margin-bottom: 0;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .soru-metin p {
+    margin-bottom: 0;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  
+  .soru-secenek-harf {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+  }
+  
+  .soru-secenek-harf:disabled {
+    cursor: not-allowed;
+  }
+  
+  .soru-secenek-harf.btn-danger {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .soru-secenek-harf.btn-success {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .soru-secenek-harf.btn-success:disabled {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .soru-secenek-harf.btn-danger:disabled {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  

@@ -1,0 +1,45 @@
+.egitim-single {
+    background-image: url(../images/deneme.jpeg);
+    background-attachment: fixed;
+    padding: 140px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .egitim-single .egitim-wrapper {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .egitim-single .egitim-wrapper h2 {
+    font-size: 25px;
+  }
+
+  .egitim-single .egitim-wrapper strong {
+    font-size: 55px;
+    font-weight: 600;
+    margin: 20px 0;
+  }
+
+  .egitim-single .egitim-wrapper span {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color: white;
+  }
+
+  .egitim-single .egitim-wrapper > a {
+    background-color: #fff;
+    margin-top: 60px;
+  }
+
+  .egitim-single .egitim-wrapper > a:hover {
+    background-color: #1367ef;
+    border-color: #1367ef;
+    color: #fff;
+  }
+

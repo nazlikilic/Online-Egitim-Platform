@@ -1,0 +1,56 @@
+/* Stil dosyasını VideoPlayer.css olarak adlandıralım */
+
+.video-player {
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+video {
+  width: 100%;
+  display: block;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+button.play-pause-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button.play-pause-btn:hover {
+  background-color: #0056b3;
+}
+
+button.mute-unmute-btn {
+  background-color: #28a745;
+  color: #fff;
+}
+
+button.mute-unmute-btn:hover {
+  background-color: #218838;
+}
+
+button.video-sil-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+button.video-sil-btn:hover {
+  background-color: #c82333;
+}
+
+  
